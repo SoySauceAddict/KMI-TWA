@@ -15,6 +15,8 @@
             result = num1 - num2;
         } else if (operation === "multi") {
             result = num1 * num2;
+        } else if (operation === "divis") {
+            result = num1 / num2;
         } else {
             alert("Please select an operation.");
             return;
@@ -44,12 +46,14 @@
 <input type="number" id="num2" placeholder="Enter second number">
 
 <form>
-  <input type="radio" id="R1" name="R" value="plus">
-  <label for="plus">Plus</label><br>
-  <input type="radio" id="R2" name="R" value="minus">
-  <label for="minus">Minus</label><br>
-  <input type="radio" id="R3" name="R" value="multi">
- <label for="x">Multiplication</label>
+    <input type="radio" id="R1" name="R" value="plus">
+    <label for="plus">Plus</label><br>
+    <input type="radio" id="R2" name="R" value="minus">
+    <label for="minus">Minus</label><br>
+    <input type="radio" id="R3" name="R" value="multi">
+    <label for="x">Multiplication</label>
+    <input type="radio" id="R4" name="R" value="divis">
+    <label for="x">Division</label>
 </form> 
 
 
